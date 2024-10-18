@@ -58,6 +58,10 @@ Als het is geinstalleerd:
 - open deze map met VS Code
 
 Maak een nieuw tekstbestand aan genaamd 'readme.txt' en type hierin 'Dit is mijn Python project'
+- sla het bestand op
+
+noem het bestand 'readme.txt'. na het opslaan zie je het bestand links in de explorer.
+- zet ook 'Autosave' aan (File -> Autosave)
 
 ## Github
 Github is een online platform voor softwareontwikkeling en versiebeheer.
@@ -76,11 +80,20 @@ GIT is een versiebeheersysteem waarmee je code versie kunt beheren. Daarnaast ku
 
 - installeer GIT (een versiebeheersysteem) 
 
-Ga naar https://git-scm.com/downloads en download de git versie voor jouw computer en installeer deze
+Ga naar https://git-scm.com/downloads en download de git versie voor jouw computer en installeer deze. Laat alle opties op default staan.
 
 Met Git en VS Code kun je een aantal acties uitvoeren om versiebeheer te gebruiken (git moet wel geinstalleerd zijn):
 
-Open VS Code met jouw map geopend.
+## git user.name en user.email
+
+Om Git te kunnen gebruiken moeten eerst ook de username en email in git geconfigureerd worden. Dit gebeurt in de command line met de volgende commando's:
+- git config --global user.name "FIRST_NAME LAST_NAME"
+- git config --global user.email "MY_NAME@example.com"
+
+Gebruik hierbij je eigen naam en email. Voor meer informatie zie https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
+
+## Git in VSCode
+Open VS Code met jouw map en jouw 'readme.txt' bestand geopend.
 
 klik op het 3e icoontje (onder het vergrootglas) aan de linkerzjkant in de toolbalk. Je ziet twee blauwe knoppen 'Initialize Repository' en 'Publish to Github'
 
@@ -92,9 +105,14 @@ Type vervolgens in de input balk onder 'Source control' 'Nieuwe repository' in e
 
 ### git push
 
-Klik vervolgens op Publish Branch enkies voor 'Publish to GitHub public repository
+Klik vervolgens op Publish Branch en VSCode vraagt je of je Github wil laten connecten. Klik op 'Allow' in de popup en je browser opent github.com. Log in met je Github account. Klik op de groene knop 'Continue' en vervolgens op de groene knop 'Authorize Visual-Studio-code'. Klik vervolgens op 'open' als de browser Visual Studio Code wil openen. VS Code mag nu pushen naar jouw Github account. 
 
-## (Optioneel)
+- Kies 'Publish to Github public repository'
+
+Hiermee wordt jouw repository naar Github gepusht. VS Code vraag je nu weer om in te loggen. Kies de blauwe knop 'Sign in with your browser'. Klik vervolgens op de groene knop 'Authorize git-ecosystem'. Een lege pagina opent in je browser. Ga terug naar VS Code, jouw repo heeft nu de veranderingen in Github opgeslagen (gepusht)
+- Kijk op Github of jouw repository aanwezig is in jouw account
+
+## (voor later)
 ### git pull
 Als de code op Github in een hogere versie zit dan jouw lokale versie, kun je een zogenaamde 'git pull' doen om de laatste veranderingen op te halen.
 
