@@ -53,8 +53,22 @@ Omdat het programmeren van Python in de command line nogal kaal en onhandig is, 
 
 Ga naar https://code.visualstudio.com/ en download de VS Code versie voor jouw computer installeer deze.
 
+Als het is geinstalleerd:
+- maak een nieuwe map aan op jouw computer
+- open deze map met VS Code
+
+Maak een nieuw tekstbestand aan genaamd 'readme.txt' en type hierin 'Dit is mijn Python project'
+
 ## Github
 Github is een online platform voor softwareontwikkeling en versiebeheer.
+- maak een github account aan
+
+Ga naar https://github.com/ en klik op 'Sign Up'en volg de instructies.
+
+### Aanmaken github credentials in VS Code
+user en password
+
+voor meer informatie zie: https://www.geeksforgeeks.org/how-to-add-git-credentials-in-vscode/
 
 ## GIT
 
@@ -64,8 +78,28 @@ GIT is een versiebeheersysteem waarmee je code versie kunt beheren. Daarnaast ku
 
 Ga naar https://git-scm.com/downloads en download de git versie voor jouw computer en installeer deze
 
-Als het is geinstalleerd, open dan Visual Studio Code en 
+Met Git en VS Code kun je een aantal acties uitvoeren om versiebeheer te gebruiken (git moet wel geinstalleerd zijn):
 
-installeer GIT (een versiebeheersysteem) om deze repository op je computer te clonen.
+Open VS Code met jouw map geopend.
 
-- ga naar https://git-scm.com/ en dan naar Downloads
+klik op het 3e icoontje (onder het vergrootglas) aan de linkerzjkant in de toolbalk. Je ziet twee blauwe knoppen 'Initialize Repository' en 'Publish to Github'
+
+### git init
+Om je eigen nieuwe repository te maken klik op 'Initialize Repository'
+
+### git commit
+Type vervolgens in de input balk onder 'Source control' 'Nieuwe repository' in en klik op de blauwe knop 'Commit'. Klik op 'yes' of 'always' als gevraagd wordt of je al je veranderingen wilt opslaan. De eerste versie van jouw repository is nu opgeslagen.
+
+### git push
+
+Klik vervolgens op Publish Branch enkies voor 'Publish to GitHub public repository
+
+## (Optioneel)
+### git pull
+Als de code op Github in een hogere versie zit dan jouw lokale versie, kun je een zogenaamde 'git pull' doen om de laatste veranderingen op te halen.
+
+### git clone
+Als je een project van Github lokaal op je computer wilt. kun je deze clonen.
+
+
+
