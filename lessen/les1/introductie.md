@@ -3,8 +3,9 @@ In deze cursus gebruiken we een aantal tools:
 
 - Command Line Interface (CLI) (tekstgebaseerde instructieregels)
 - Python Interpreter
-- GIT (versiebeheersysteem)
 - Visual Studio Code (code editor)
+- Github (online versiebeheer)
+- Git (versiebeheersysteem)
 
 
 ## Command Line Interface (CLI)
@@ -52,6 +53,8 @@ Omdat het programmeren van Python in de command line nogal kaal en onhandig is, 
 
 Ga naar https://code.visualstudio.com/ en download de VS Code versie voor jouw computer installeer deze.
 
+## Github
+Github is een online platform voor softwareontwikkeling en versiebeheer.
 
 ## GIT
 
@@ -61,7 +64,7 @@ GIT is een versiebeheersysteem waarmee je code versie kunt beheren. Daarnaast ku
 
 Ga naar https://git-scm.com/downloads en download de git versie voor jouw computer en installeer deze
 
-Als het is geinstalleerd, kun je in de command line Python programmeren.
+Als het is geinstalleerd, open dan Visual Studio Code en 
 
 installeer GIT (een versiebeheersysteem) om deze repository op je computer te clonen.
 
