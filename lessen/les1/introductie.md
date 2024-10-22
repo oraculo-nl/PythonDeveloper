@@ -112,13 +112,16 @@ Type vervolgens in de input balk onder 'Source control' 'Nieuwe repository' in e
 
 ## Connectie maken tussen jouw lokale Git en Github
 
+*Let op: bij deze stap moet er 2 keer een popup verschijnen die om autorisatie vraagt. Ook moet je inloggen via de browser.*
+
 ### git push
 
-Klik vervolgens op Publish Branch en VSCode vraagt je of je Github wil laten connecten. Klik op 'Allow' in de popup en je browser opent github.com. Log in met je Github account. Klik op de groene knop 'Continue' en vervolgens op de groene knop 'Authorize Visual-Studio-code'. Klik vervolgens op 'open' als de browser Visual Studio Code wil openen. VS Code mag nu pushen naar jouw Github account. 
+Klik vervolgens op Publish Branch en VSCode vraagt of je met Github wil connecten. 
+**Dit is de 1e popup**. Klik op 'Allow' in de popup en je browser opent github.com. Log in met je Github account. Klik op de groene knop 'Continue' en vervolgens op de groene knop 'Authorize Visual-Studio-code'. Klik vervolgens op 'open' als de browser Visual Studio Code wil openen. VS Code mag nu pushen naar jouw Github account. 
 
 - Kies 'Publish to Github public repository'
 
-Hiermee wordt jouw repository naar Github gepusht. VS Code vraag je nu weer om in te loggen. Kies de blauwe knop 'Sign in with your browser'. Klik vervolgens op de groene knop 'Authorize git-ecosystem'. Een lege pagina opent in je browser. Ga terug naar VS Code, jouw repo heeft nu de veranderingen in Github opgeslagen (gepusht)
+Hiermee wordt jouw repository naar Github gepusht. VS Code vraag je nu weer om in te loggen. **Dit is de 2e popup**.  Kies de blauwe knop 'Sign in with your browser'. Klik vervolgens op de groene knop 'Authorize git-ecosystem'. Een lege pagina opent in je browser. Ga terug naar VS Code, jouw repo heeft nu de veranderingen in Github opgeslagen (gepusht)
 - Kijk op Github of jouw repository aanwezig is in jouw account
 
 ## Optionele commando's
