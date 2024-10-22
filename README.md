@@ -1,3 +1,3 @@
 # PythonDeveloper
 
-- 
+Python developer cursus
