@@ -31,6 +31,10 @@ Doe bijvoorbeeld cd \<mapnaam> en daarna nog een keer ls en je krijgt nu de inho
 
 Met dit commando kun je zien in welke map je momenteel zit in de command line. Na het intypen van dit commando krijg je de volledige padnaam te zien.
 
+### Pijltjestoetsen
+
+Met de pijltjestoetsen kun je heen en weer gaan tussen eerder ingetypte commando's en kun je eerdere commando's terughalen en opnieuw uitvoeren waardoor je niet steeds opnieuw hoeft in te typen.
+
 ## Python Interpreter
 
 Om Python te programmeren heb je een zogenaamde interpreter nodig. Dit is een programma dat de Python instructies kan vertalen naar machinecode om op de computer uit te voeren. Dit gebeurt in realtime, dus is het wat langzamer dan andere soorten programmeertalen die van tevoren vertaald zijn.
