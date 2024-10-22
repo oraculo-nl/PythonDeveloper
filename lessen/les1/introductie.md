@@ -19,7 +19,7 @@ Openen van de Terminal:
 Dit open de powershell of in sommige gevallen nog een oude DOS prompt. 
 Hier kun je verschillende commando's gebruiken om bijvoorbeeld de inhoud van je harde schijf te zien:
 
-- ls (powershell) of dir (DOS)
+- ```ls``` (powershell) of ```dir``` (DOS)
 
 Je krijgt mappen te zien. Om in een van de mappen te komen, kun je een ander commando gebruiken:
 
@@ -93,8 +93,8 @@ Met Git en VS Code kun je een aantal acties uitvoeren om versiebeheer te gebruik
 ## git user.name en user.email
 
 Om Git te kunnen gebruiken moeten eerst ook de username en email in git geconfigureerd worden. Dit gebeurt in de command line met de volgende commando's:
-- git config --global user.name "FIRST_NAME LAST_NAME"
-- git config --global user.email "MY_NAME@example.com"
+- ```git config --global user.name "FIRST_NAME LAST_NAME"```
+- ```git config --global user.email "MY_NAME@example.com"```
 
 Gebruik hierbij je eigen naam en email. Voor meer informatie zie https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
 
