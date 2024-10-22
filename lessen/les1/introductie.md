@@ -27,7 +27,9 @@ Je krijgt mappen te zien. Om in een van de mappen te komen, kun je een ander com
 
 Doe bijvoorbeeld cd \<mapnaam> en daarna nog een keer ls en je krijgt nu de inhoud van \<mapnaam> te zien.
 
+- pwd
 
+Met dit commando kun je zien in welke map je momenteel zit in de command line. Na het intypen van dit commando krijg je de volledige padnaam te zien.
 
 ## Python Interpreter
 
